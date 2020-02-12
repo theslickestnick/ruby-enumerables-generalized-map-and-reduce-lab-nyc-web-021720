@@ -10,11 +10,11 @@ def map(array)
   new
 end
 
-def reduce(array)
+def reduce(array, starting_point = 0)
   new = []
   counter = 0
   while counter < array.size do
-    
+
     counter +=1
   end
   new
