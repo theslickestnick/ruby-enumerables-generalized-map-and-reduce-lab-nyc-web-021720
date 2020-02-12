@@ -1,5 +1,8 @@
 require "pry"
 
-def my_own_map(source_array)
-  binding.pry
+source_array.map do |element|
+  element * -1
+  element
+  element * 2
+  element * element
 end
