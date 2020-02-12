@@ -9,3 +9,13 @@ def map(array)
   end
   new
 end
+
+def reduce(array)
+  new = []
+  counter = 0
+  while counter < array.size do
+    
+    counter +=1
+  end
+  new
+end
