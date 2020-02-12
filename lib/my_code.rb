@@ -1,10 +1,16 @@
 require "pry"
 
-def my_own_map(source_array)
-  yield(source_array)
+def map(array)
+  new_array = []
+  counter = 0
+  while counter < array.size do
+    new.push(yield(array[counter]))
+  counter += 1
+  end
+  new_array
 end
 
-source_array.map {|array| array * -1}
-source_array.map {|array| array}
-source_array.map {|array| array * 2}
-source_array.map {|array| array * array}
+array.map {|array| array * -1}
+array.map {|array| array}
+array.map {|array| array * 2}
+array.map {|array| array * array}
